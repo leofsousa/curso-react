@@ -1,0 +1,32 @@
+.flex {
+    display: flex;
+    width: 100%;
+    justify-content: safe;
+}
+.item {
+    width: 80px;
+    height: 80px;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+    padding: 50px;
+}
+.item:hover {
+    width: 100px;
+    height: 100px;
+    transition: 0.5s;
+    background-color: rgb(61, 19, 99);
+    cursor: pointer;
+}
+input:focus {
+    border: solid red;
+    background-color: gray;
+}
+.item:first-child:hover, 
+.item:last-child:hover {
+    background-color: black;
+}
