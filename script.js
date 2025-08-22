@@ -1,11 +1,11 @@
-const nota = 9;
-
-nota > 5 ? console.log('Aprovado') : console.log("Reprovado")
 
 
 
 
 
+
+
+// nota > 5 ? console.log('Aprovado') : console.log("Reprovado")  === Operador if ternário
 
 // && = and(e)
 // || = or(ou)
