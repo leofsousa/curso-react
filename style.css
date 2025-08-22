@@ -1,7 +1,11 @@
+body {
+    background-color: blue;
+}
+
 .flex {
     display: flex;
     width: 100%;
-    justify-content: safe;
+    justify-content: space-around;
 }
 .item {
     width: 80px;
@@ -29,4 +33,14 @@ input:focus {
 .item:first-child:hover, 
 .item:last-child:hover {
     background-color: black;
+}
+
+@media (max-width: 500px) {
+   body{
+    background-color: green;}
+
+    .flex{
+        flex-direction: column;
+        align-items: center;
+    }
 }
